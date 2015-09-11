@@ -112,7 +112,7 @@ function GetGitHubRepositories
 
 if ([string]::IsNullOrEmpty($Env:GITHUB_OAUTH_TOKEN))
 {
-  GitHubOAuthToken 'mstarrrsui' 'orval123';
+  GitHubOAuthToken 'USERNAME' 'PASSWORD';
 }
 
 GetGitHubRepositories
